@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ali.testsaba.Goals">
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="350dp"
+                android:textSize="13dp"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="29dp"
+                android:layout_marginBottom="100dp"
+                tools:layout_editor_absoluteY="43dp"
+                android:text="تهدف جامعة سبأ على المدى البعيد، إلى المساهمة في إحداث تغيير نوعي في التعليم العالي في الجمهورية اليمنية بما يجعله قادراً على تلبية احتياجات البلاد من المتخصصين في العلوم والمعارف الإنسانية والتطبيقية، ومتابعة التطورات العلمية المستحدثة ، والمساعدة على رفع كفاءة وقدرات المؤسسات الحكومية والخاصة من خلال برامج التعليم المستمر التي تقدمها والأبحاث العلمية التي يجريها أعضاء هيئة التدريس .\n
+وأهم الأهداف هي :\n
+ 1 - إتاحة فرص التعليم العالي والجامعي للطلبة الخريجين من الثانوية العامة في التخصصات المختلفة .\n
+ 2 - تنمية القدرات والمهارات العلمية والعملية المختلفة للطلاب والطالبات .\n
+ 3 - تخريج كفاءات علمية وفنية مؤهلة وقادرة على المشاركة في تحمل المسئولية وإتقان العمل بما يمكنها أيضاً من مواكبة التقدم العلمي والتطور التكنولوجي .\n
+ 4 - الإسهام في رفع كفاءة العاملين في المؤسسات العامة والخاصة من خلال تصميم وتقديم برامج الإعداد والتأهيل والتدريب الخاص بكل مؤسسة راغبة في ذلك .\n
+ 5 - تقديم الدراسات والاستشارات الفنية والاقتصادية المتخصصة لمختلف المؤسسات العامة والخاصة .\n
+ 6 - المساهمة في نقل وتنمية العلوم والتكنولوجيا وتطويرها لخدمة المجتمع .\n
+ 7 - تكوين وتوثيق الصلات والعلاقات العلمية مع الجامعات اليمنية والعربية، والأجنبية بما يساعد على تحقيق الأهداف المتوخاة في النمو والتطوير العلمي في مختلف المجالات من خلال تبادل الخبرات والمعارف والمهارات المختلفة .\n
+ 8 - المشاركة الفاعلة في المؤتمرات والندوات العلمية بهدف المساهمة في إثراء المعرفة العلمية وتوجيهها نحو خدمة المجتمع .\n
+"
+/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

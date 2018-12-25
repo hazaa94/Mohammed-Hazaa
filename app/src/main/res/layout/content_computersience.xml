@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ali.testsaba.Computersience"
+    tools:showIn="@layout/activity_computersience">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="أهداف الكلية :-"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="287dp"
+            tools:layout_editor_absoluteY="-15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="350dp"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="43dp"
+            android:text="تهدف كلية الحاسوب وتكنولوجيا المعلومات إلى تحقيق الآتي ضمن الأهداف العامة لجامعة سبأ:-\n
+
+1- تزويد الطالب بالمعارف الحديثة في مجال علوم الحاسوب وتكنولوجيا المعلومات.\n
+2- إعداد الطالب إعداداً منهجيا ليكون قادرا على دراسة المشاكل والتحديات في مجال علوم الحاسوب وتكنولوجيا المعلومات واستخدامها في تنمية المجتمع.\n
+3- إعداد الدارسين بأقسام الكلية بما يكفل قدراتهم المستقبلية على التعامل مع الواقع المتطور في مجالات علوم الحاسوب , وتكنولوجيا المعلومات وإيجاد الحلول المناسبة للتحديات التي قد تواجههم.\n
+4- تمكين الطالب من مواصلة اهتماماته العلمية المختلفة  والندوات المتخصصة.\n
+5- تشجيع المتخرجين على مواصلة دراساتهم بعد الجامعة , وخاصة بعد اكتساب الخبرة العلمية في مجال تخصصهم. \n
+6- المساهمة في خدمة المجتمع من خلال إعداد الدراسات وبرامج التدريب المستمر التي تلبي حاجات لمجتمع وتساعد على تطوره."
+            />
+
+
+        <TextView
+            android:id="@+id/tvv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الدرجات العلمية ومدة الدراسة :-"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="287dp"
+            tools:layout_editor_absoluteY="-15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tvv2"
+            android:layout_width="350dp"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="43dp"
+            android:text="درجة البكالوريوس في نظم المعلومات الحاسوبية، مدة الدراسة 4 سنوات أو ما يعادل 141 ساعة\n
+درجة البكالوريوس في تكنولوجيا المعلومات، مدة الدراسة 4 سنوات أو ما يعادل 138 ساعة\n
+درجة البكالوريوس في شبكات وأمن المعلومات، مدة الدراسة 4 سنوات أو ما يعادل 138 ساعة \n
+درجة البكالوريوس في هندسة البرمجيات، مدة الدراسة 4 سنوات أو ما يعادل 138 ساعة  \n
+درجة الدبلوم في برمجة الحاسوب، مدة الدراسة سنتان أو ما يعادل 75 ساعة \n
+درجة الدبلوم في علوم الحاسوب، مدة الدراسة سنتان أو ما يعادل 75 ساعة"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="رؤية الكلية:-"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="287dp"
+            tools:layout_editor_absoluteY="-15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/tvv3"
+            android:layout_width="350dp"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="43dp"
+            android:text="تعتمد رؤية كلية تكنولوجيا المعلومات على تكريس نفسها كإحدى الكليات البارزة والمتميزة في اليمن من اجل مد المجتمع بكوادر مؤهلة وقادرة على المساهمة في التنمية والتطوير. وتسعى الكلية إلى تحقيق رؤيتها من خلال إعداد طلاب بخبرات مميزة واحترافية في مجال تكنولوجيا المعلومات ومن اجل المنافسة في سوق العمل وخلق جيل مهتم في البحث العلمي . ومجهزة بالعلم والمهارات المطلوبة لمواكبة التطور المتصاعد في تكنولوجيا المعلومات والتي أصبحت تلعب دوراً فاعلاً في حياتنا اليومية"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="رسالة الكلية:-"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="287dp"
+            tools:layout_editor_absoluteY="-15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/tvv4"
+            android:layout_width="350dp"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="43dp"
+            android:text="تطبق الكلية احدث الأساليب العلمية في التدريس وبما يتماشى مع معايير الجودة الشاملة مع التركيز على بعدي العملية التعليمية من تعليم وتدريب  وإزالة الحواجز بين الأوساط الأكاديمية والسوق.\n
+كما تعمل الكلية على إعداد البرامج التدريبية الأكاديمية التي توازن بين الجوانب الأكاديمية والعملية من اجل مساعدة خريجيها في الحصول على فرص وظيفية والتأكد من جاهزيتهم من اجل تولي مهام إدارية وقيادية  وفنية في مختلف مجالات العمل .\n\n"
+            android:layout_marginBottom="10dp"
+            />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

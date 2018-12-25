@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ali.testsaba.Arts"
+    tools:showIn="@layout/activity_arts">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نبذة عن الكلية "
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="287dp"
+            tools:layout_editor_absoluteY="-15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="350dp"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="43dp"
+            android:text="تعد كلية العلوم الإدارية و الإنسانية من أول كلية تم تأسيسها في الجامعة عام 1994م بعد إنشاء الجامعة واستقبلت أول دفعة طلاب التحق بالكلية العام التالي 1995/1996م وتسهم الكلية منذ إنشائها بإعداد الكوادر المتخصصة في العلوم الإدارية والإنسانية،بحيث أن هذه الكوادر قادرة على تلبية احتياجات متطلبات سوق العمل على المستوى المحلي والإقليمي والمتطلبات المختلفة لمؤسسات القطاعين العام والخاص والكلية"
+
+            />
+
+
+        <TextView
+            android:id="@+id/tvv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الرسالة"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="287dp"
+            tools:layout_editor_absoluteY="-15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tvv2"
+            android:layout_width="350dp"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="43dp"
+            android:text="تأتي رسالة الكلية مجسدة لتطلعات بلادنا في بناء كوادر متخصصة مؤهلة تأهيل نوعي يحقق أهداف التنمية ويغطي متطلبات البلاد من الكوادر في المجالات الاقتصادية والإدارية والإنسانية والمساهمة الفاعلة في البحث العلمي وبناء المجتمع. "
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" البرامج الدراسية"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="287dp"
+            tools:layout_editor_absoluteY="-15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/tvv3"
+            android:layout_width="350dp"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="43dp"
+            android:text=" تتكون من  خمس أقسام هي :-\n
+1-  قسم المحاسبة: وهو من الأقسام الممتازة ومخرجاته متواجدة في كثير من المؤسسات الخاصة والحكومية ومشهود لها بالكفاءة والمهارة. \n
+2-   قسم إدارة الأعمال: وهو من الأقسام التي تتميز بعدد كبير من الطلاب ملتحقين فيه ويخرج كل عام ما يقارب من 200 طالب ويتميز طلاب هذا القسم الإبداع والمهارة. \n
+3-  قسم التسويق: وهو من الأقسام المهمة في الجامعة ويتميز بنوعية المخرجات التي تلتحق في قطاع التسويق في مختلف الشركات والمؤسسات الخاصة وهو من أهم روافد سوق العمل في هذا المجال وأعداده نوعية في إطار المقاييس العلمية لتعليم الخاص يتخرج من  بهذا القسم كل عام عدد 20 طالب يلتحقون بسوق العمل مباشرة . \n
+4-  قسم نظم المعلومات الإدارية: وهو من الأقسام النوعية والمتميزة على مستوى الجامعات اليمنية الخاصة حيث يقدم هذا القسم نوعين من المهارات الأولى إدارية والثانية مهارات في مجال تقنيات المعلومات، ليواكب متطلبات الإدارة الالكترونية والإدارة بلا أوراق. \n
+5-  قسم العلوم المالية والمصرفية:وهو قسم من الأقسام النوعية التي خرجت عدد من الطلاب يعملون في القطاع المصرفي وهم من الطلاب المشهود لهم واغلبهم مدراء تنفيذيين في تلك البنوك .\n
+6- قسم اللغة الانجليزية\n
+7- قسم اللغة العربية\n
+8 - قسم الدراسات الإسلامية\n
+9 - قسم الإعلام\n
+10 - قسم الترجمة"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأهداف"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="287dp"
+            tools:layout_editor_absoluteY="-15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/tvv4"
+            android:layout_width="350dp"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="43dp"
+            android:text="تهدف كلية العلوم الادارية و الإنسانية من خلال تقديم برنامج شامل ومتوازن بحيث تكون أهدافها منسقة مع الاهداف العامة لجامعة سبأ/n
+ لتحقيق الأتي :- \n
+ 1- تزويد الطالب بالمعارف العلمية والإدارية و الإنسانية . \n
+ 2- إعداد الطالب إعداد منهجياً في مجال إجراء البحوث العلمية والتطبيقية في مجالات تخصصه ليكون قادراً على دراسة المشاكل والتحديات في مجال الإدارة والاقتصاد والمحاسبة ونظم المعلومات الإدارية و العلوم الإنسانية. \n
+ 3- إعداد المتخصصين في العلوم الإدارية والمحاسبية والاقتصادية و الإنسانية بما يكفل في المستقبل المنظور للإسهام في تطوير المجتمع . \n
+ 4- تخريج كوادر مؤهلة قادرة على التعامل مع المستجدات في المجالات الاقتصادية والإدارية و العلوم الإنسانية وفق منهج علمي يضمن وضع الحلول والمعالجات المناسبة للتحديات التي  تواجه المجتمعات في العصر الراهن. \n
+ 5- إقامة دورات تدريبية وعلمية بهدف رفع المستوى العلمي وإكساب الطلبة خبرات ومهارات علمية مضافة \n
+ 6- الانفتاح على ما يستجد من معارف علمية جديدة في المجالات الاقتصادية والإدارية والمعلوماتية و الإنسانية بغية توسيع أفق ومهارات الدارسين وتنميتها . \n
+ 7- تشجيع الطلبة الخريجين الحاصلين على درجات جيدة على مواصلة الدراسات العليا لنيل شهادة الماجستير والدكتوراه . \n
+8- إعداد الكوادر المتخصصة في اللغات الحديثة والترجمة. \n
+9- تنمية مهارات الطلاب والطالبات في مجال تعلم اللغات، والتدريب على أعمال الترجمة بمختلف أنواعها. \n
+10 - ربط تخصصات الكلية باحتياجات سوق العمل ومتطلبات التنمية. \n
+11- تشجيع البحث والتأليف والتحقيق في اللغات والترجمة. \n
+12 - المشاركة في المؤتمرات الدولية في مجالي اللغات الحديثة والترجمة وعقد الندوات العلمية المتخصصة. \n
+13- تقديم الخبرة والمشورة المتخصصة للقطاعين العام والخاص. \n
+14- خدمة المجتمع من خلال القيام بأعمال الترجمة التحريرية والشفوية. \n
+15- القيام بإعداد برامج اللغات الحديثة والترجمة وتصميمها وتنفيذها ومراجعتها حسب الحاجة ووفقاً للوائح الجامعة. "
+            android:layout_marginBottom="10dp"
+            />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

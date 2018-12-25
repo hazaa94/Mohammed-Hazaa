@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ali.testsaba.Aboutunii"
+    tools:showIn="@layout/activity_aboutunii">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:text="نبذة عن الجامعة"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="287dp"
+                tools:layout_editor_absoluteY="-15dp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="جامعة سبأ جامعة لأهلية أنشأت بموجب الترخيص الصادر من وزارة التعليم العالي والبحث العلمي برقم (٢٧) وبتاريخ ١١\٨\١٩٩٤م , \n
+ وقد بدأت الجامعة بمزاولة أنشطتها العلمية في العام الدراسي 1995/ 1996 وحالياً تضم الجامعة الكليات التالية\n
+- كلية الطب والعلوم الطبية .  \n
+- كلية طب الأسنان .  \n
+- كلية الهندسة .  \n
+- كلية الحاسوب وتكنولوجيا المعلومات .  \n
+- كلية الإدارة والاقتصاد .  \n
+- كلية الآداب والتربية .  \n
+- كلية الحقوق .  \n
+- الدراسات العليا .  \n
+"
+                android:textSize="13dp"
+                tools:layout_editor_absoluteX="29dp"
+                tools:layout_editor_absoluteY="43dp" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

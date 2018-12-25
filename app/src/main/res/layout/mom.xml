@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ali.testsaba.Mom">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="350dp"
+                android:textSize="13dp"
+                tools:layout_editor_absoluteX="287dp"
+                tools:layout_editor_absoluteY="-15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text=" وتتميز جامعة سبأ بأن برامجها الدراسية القائمة حالياً قد أعدتها نخبة من هيئة التدريس الأكفاء، وباختيارها للكفاءات التدريسية المتميزة ذات الصلة الوثيقة بالجديد في العلوم الإنسانية والتطبيقية والقادرة على استخدام استراتيجيات تعليمية متنوعة تتسق مع تنوع القدرات لطلبة الجامعة بحيث تساعدهم على النمو العقلي، والعلمي، والاتزان الشخصي في جوانبه المتعددة. كما تتميز الدراسة في مختلف أقسام كليات الجامعة بمحدودية أعداد طلبتها مما يمكن أعضاء هيئة التدريس من أداء واجباتهم على الوجه الأكمل، ويساعد الطلبة على الاستفادة القصوى من علوم وخبرات أساتذتهم داخل قاعات المحاضرات والمختبرات والمعامل . \n
+  ويتسم طلبة الجامعة بالتنوع في قدراتهم وخبراتهم بالإضافة إلى تنوع البيئات الثقافية الأصلية التي ترعرعوا فيها وذلك لأن الجامعة تضم طلاباً من اليمن ومن مختلف البلدان العربية والإسلامية . \n" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

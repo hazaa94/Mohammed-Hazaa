@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ali.testsaba.kepsi"
+    tools:showIn="@layout/activity_kepsi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="عن البرنامج"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="هو برنامج خدمي صمم كمشروع تخرج لنيل درجة البكالوريوس في كلية الحاسوب وتكنولوجيا المعلومات متاح لجميع مستخدمي الأجهزة الذكية , ويحتوي على معلومات شاملة وتفاصيل أكثر عن جامعة سبأ وكيفية الإرتباط بها ومعرفة تفاصيلها كدليل يمكن الإستفادة منه , وسيتم تحديثه وإضافة أي معلومات جديدة طرأت على مستوى الحرم الجامعي لجامعة سبأ واستدعى ذلك"
+            android:layout_marginRight="10dp"
+android:textSize="13dp"
+            />
+        <TextView
+            android:id="@+id/tt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="رؤيتنا للبرنامج"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="جامعة سبأ جامعة يمنية مهمة جداً لها مكانتها المتميزة بين الجامعات اليمنية وسمعتها العلمية المرموقة علمياً ودولياً , ولأنها جامعة تسعى لمتابعة التطورات في شتى المجالات العلمية للمستوى المتميز لكوادرها وبالأخص التطورات التقنية والتكنولوجية المعاصرة وحتى تصل أهدافها لأبلغ مما هي عليه فيما تقدمه لأبنائها الطلاب ورفد مجتمعها ولفت أنظارهم لمثل هذه التطورات ومتابعتها , لذلك قمنا بتصميم وتطوير هذاالبرنامج (الدليل الجامعي) لجامعة سبأ ونتمنى من خلاله أن يكون ذو فائدة ونفع لمستخدميه.وللاقتراحات يؤجى مراسلتنا على الايميل الخاص بفريق التطوير الموضح ادناه"
+            android:layout_marginRight="10dp"
+            android:textSize="13dp"
+            />
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/gmail"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مطوري التطبيق :"
+            android:textSize="@dimen/text_margin"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.محمد هزاع
+2. محمد المسيكي
+3.محمد الكبسي "
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/Hazaaa"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/hazaa" />
+
+            <ImageButton
+                android:id="@+id/kebsii"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/mo" />
+
+            <ImageButton
+                android:id="@+id/mohamed"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/kebsi" />
+
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/tt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مشرف فريق العمل"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="130dp"
+            android:background="@drawable/drmunir"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n كل الشكر والتقدير لمشرف الفريق الدكتور الفاضل /
+منير عبدالله سعيد المخلافي\n
+\n عميد كلية الحاسوب وتكنولوجيا المعلومات بجامعة سبأ
+\n ١- بكالوريوس نظم معلومات حاسوبية - الأردن
+\n  ٢- دبلوم عالي بعد البكالورويس نظم معلومات - الأردن
+\n  ٣- ماجتسير حاسوب - الأردن
+       ٤- دكتوراه هندسة البرمجيات - ماليزيا\n"
+            android:layout_marginRight="10dp"
+
+            />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

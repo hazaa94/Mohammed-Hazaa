@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ali.testsaba.Rules">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="نبذة عن الجامعة"
+                android:textSize="15dp"
+                tools:layout_editor_absoluteX="287dp"
+                tools:layout_editor_absoluteY="-15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="350dp"
+                android:textSize="13dp"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="29dp"
+                tools:layout_editor_absoluteY="43dp"
+                android:text="تسعى جامعة سبا الى التطوير والتحسين المستمر لحقول المعارف المختلفة وتطبيقاتها الحديثة على الممارسات الأكاديمية والتربوية في كل مراحل ومجالات التعليم وذلك عن طريق إعداد اجيال مؤهلة وقادرة على احداث تغييرات جذرية في شتى مجالات الحياة بالاعتماد على البحث العلمي وتقنية المعلومات عبر البرامج ذات الجودة العالية والإتقان التي تعدها الجامعة وفقا لأحدث النظريات ." />
+
+
+            <TextView
+                android:id="@+id/tvv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="نبذة عن الجامعة"
+                android:textSize="15dp"
+                tools:layout_editor_absoluteX="287dp"
+                tools:layout_editor_absoluteY="-15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tvv2"
+                android:layout_width="350dp"
+                android:textSize="13dp"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="29dp"
+                tools:layout_editor_absoluteY="43dp"
+                android:text="تسعى جامعة سبا الى التطوير والتحسين المستمر لحقول المعارف المختلفة وتطبيقاتها الحديثة على الممارسات الأكاديمية والتربوية في كل مراحل ومجالات التعليم وذلك عن طريق إعداد اجيال مؤهلة وقادرة على احداث تغييرات جذرية في شتى مجالات الحياة بالاعتماد على البحث العلمي وتقنية المعلومات عبر البرامج ذات الجودة العالية والإتقان التي تعدها الجامعة وفقا لأحدث النظريات ."
+                android:layout_marginBottom="120dp"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

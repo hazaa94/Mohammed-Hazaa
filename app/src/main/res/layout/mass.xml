@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ali.testsaba.Mass">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الرسالة"
+                android:textSize="15dp"
+                tools:layout_editor_absoluteX="287dp"
+                tools:layout_editor_absoluteY="-15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="350dp"
+                android:textSize="13dp"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="29dp"
+                tools:layout_editor_absoluteY="43dp"
+android:text="تسعى جامعة سبأ إلى التطوير والتحسين المستمر للمعارف وتطبيقاتها الحديثة على الممارسات الأكاديمية والتربوية في كل مراحل ومجالات التعليم وذلك على طريق إعدادا أجيال من المواطنين المؤهلين القادرين على إحداث تغييرات جذرية في شتى مجالات الحياة بالاعتماد على طريق البحث العلمي وتقنية المعلومات وذلك عبر البرامج العالية الجودة والإتقان التي تعدها الجامعة وفقاً لأحدث النظريات العلمية ونتائج الأبحاث العلمية وطرائق وأساليب التعليم الحديث ، المتوافقة مع خصوصية المجتمع اليمني وهويته الثقافية، وربط السياسات الأكاديمية بخطط واستراتيجيات الدولة التنموية ، والعمل على إيجاد تكامل بين نتاجات البحث العلمي والاحتياجات الحقيقية لسوق العمل، في هيئات ومؤسسات الدولة.. وذلك عبر تطوير وتحسين السياسات الأكاديمية في الجامعة ، ومحاولة إثراء مناحي الحياة المختلفة وإنسان المجتمع بالاستفادة من البرامج التي تقدمها كليات ومراكز ومعاهد الجامعة في مختلف المجالات ، والعمل على تطوير البحث العلمي وتمكينه من الوصول إلى مؤسسات المجتمع للمساهمة في تطوير إمكاناتها وقدراتها الإنتاجية لتمكينها من المشاركة الفاعلة في دفع المجتمع للتكيف مع الحياة العصرية ، والتأكيد على إسهاماتها الفكرية في خدمة المجتمع اليمني والعربي والعالمي ."
+                />
+
+
+            <TextView
+                android:id="@+id/tvv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الرؤية"
+                android:textSize="15dp"
+                tools:layout_editor_absoluteX="287dp"
+                tools:layout_editor_absoluteY="-15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tvv2"
+                android:layout_width="350dp"
+                android:textSize="13dp"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="29dp"
+                tools:layout_editor_absoluteY="43dp"
+android:text="أن تكون جامعة سبأ من الجامعات الرائدة على المستوى المحلي والأقليمي والدولي خلال الربع الأول من القرن الواحد والعشرين"
+                android:layout_marginBottom="120dp"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
